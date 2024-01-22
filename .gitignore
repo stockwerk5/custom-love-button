@@ -1,0 +1,22 @@
+# Ignoriere WordPress-Kern-Dateien
+/wp-admin/
+/wp-includes/
+
+# Ignoriere Konfigurationsdateien, die sensible Informationen enthalten
+/wp-config.php
+/.htaccess
+
+# Ignoriere Node-Modulordner (falls Sie Node.js verwenden)
+/node_modules/
+
+# Ignoriere bestimmte Systemdateien
+.DS_Store
+Thumbs.db
+
+# Ignoriere Backup- und Log-Dateien
+*.log
+*.sql
+*.bak
+
+# Ignoriere Composer-Verzeichnis (falls Sie Composer verwenden)
+/vendor/
