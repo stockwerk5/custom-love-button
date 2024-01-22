@@ -1,0 +1,28 @@
+.clb-love-button, .clb-love-counter {
+    display: inline-block; /* Macht beide Elemente nebeneinander */
+    background-color: #FF69B4; /* Eine rosa Farbe */
+    color: white;
+    padding: 10px 20px; /* Vertikale und horizontale Polsterung */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px; /* Fügt etwas Abstand zwischen den Elementen hinzu */
+    height: 40px; /* Feste Höhe für beide Elemente */
+    line-height: 20px; /* Zentriert den Text vertikal */
+    vertical-align: middle; /* Stellt sicher, dass die Elemente auf der gleichen Linie sind */
+    transition: background-color 0.3s; /* Glatte Übergänge für die Hintergrundfarbe */
+}
+
+.clb-love-button:hover {
+    background-color: #FF1493; /* Eine dunklere rosa Farbe beim Hover */
+}
+
+.clb-love-button:active, .clb-love-button:focus {
+    background-color: #FF69B4; /* Setzt die Farbe auf die ursprüngliche zurück, wenn der Button gedrückt oder fokussiert wird */
+}
+
+.clb-love-counter {
+    cursor: default; /* Der Counter sollte nicht den Eindruck erwecken, klickbar zu sein */
+    pointer-events: none; /* Verhindert, dass der Counter auf Mausereignisse reagiert */
+    padding: 10px 20px; /* Gleiches Padding wie beim Button, um die Konsistenz zu gewährleisten */
+}
