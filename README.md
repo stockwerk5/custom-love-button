@@ -21,6 +21,3 @@ The Custom Love Button Plugin adds an interactive "Love It" ❤ button at the en
 
 ## License
 The Custom Love Button Plugin for WordPress is open-source software licensed under the [GPLv2 License](LICENSE).
-
-## Contributors
-- [Your Name](Link to your profile or website)
